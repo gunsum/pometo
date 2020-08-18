@@ -10,3 +10,5 @@ rebar3.crashdump
 test/generated_tests
 docs/_site
 docs/Gemfile.lock
+.apl.history
+*.swp
