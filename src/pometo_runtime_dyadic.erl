@@ -400,6 +400,7 @@ execute_dyadic(#'$func¯'{do = ["="]}, L, R) -> case L of
 																									R -> 1;
 																									_ -> 0
 																								end;
+execute_dyadic(#'$func¯'{do = ["<"]}, L, R) -> case L < R of true -> 1; false -> 0 end;
 execute_dyadic(#'$func¯'{do = ["+"]}, L, R) -> L + R;
 execute_dyadic(#'$func¯'{do = ["-"]}, L, R) -> L - R;
 execute_dyadic(#'$func¯'{do = ["×"]}, L, R) -> L * R;
